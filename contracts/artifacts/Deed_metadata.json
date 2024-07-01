@@ -86,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/deed.sol": "Deed"
+			"contracts/Deed.sol": "Deed"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -100,7 +100,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/deed.sol": {
+		"contracts/Deed.sol": {
 			"keccak256": "0xbc71e69dc93be99591ce670a5f9f5b6e08fbd49a36c8ad9b21ca51e1264d681a",
 			"license": "MIT",
 			"urls": [
