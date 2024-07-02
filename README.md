@@ -1,5 +1,7 @@
 # deed-blockchain
 
+-state management in contract 
+-time sensitivity management in contracts state and its testing
 
 Address # when testing from remix:
 #1.Donor
