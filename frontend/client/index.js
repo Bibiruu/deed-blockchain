@@ -28,7 +28,6 @@ const initWeb3 = () => {
 
 const initContract = async () => {
     const networkId = await web3.eth.net.getId();
-    console.log('networkid', networkId)
     console.log(Deed.abi)
     console.log('Deed.networks:', Deed.networks); // Debugging networks object
     return new web3.eth.Contract(
@@ -62,8 +61,10 @@ const initApp = () => {
 
     $withdraw.addEventListener('submit', (e) => {
         e.preventDefault();
+        const lawyer = accounts[0];
         deed.methods
-            .withdraw({ from: accounts[1] })
+            .withdraw()
+            .send({from: lawyer})
             .then(result => {
                 $withdrawResult.innerHTML = `Withdrawal succesfull`;
                 refreshBalance();
