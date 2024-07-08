@@ -21,7 +21,10 @@ then getting the accounts manually before deployment to TESTNET.
     *Wait for the transaction that deploys the contract to be included in a block (first confirmation).
     *Then wait for an additional 9 blocks to be mined, resulting in a total of 10 confirmations before proceeding.
 
-Did a two part deployment due to network congestion:
+Check testnet deployment:
+https://sepolia.etherscan.io/
+
+Deployment done with 1 confirmation block in between.
 
 1_initial_migration.js
 ======================
